@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> TECH INSIGHT </title>           <!-----this is the main title of website------>
+		<link rel="icon" href="logo10.png" type="image/x-icon">
+		<link rel="stylesheet" href="style.css">   <!-------we have linked the html coded with css------->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">  <!-----we have add the font style and type to the main slogan of website and the font type is 'poppins'------->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  <!--this link is used for ratting of featured products-->
+	</head>
+
+	<body> <!---this is the main body of website--->
+		<div class="header"> <!-----this header contains the logo, tabs, the slogan image, the slogan paragraph, 'explore now tab', the cart tab, the front page image--->
+			<div class="container">
+				<div class="navbar">
+					<div class="logo">
+						<a href="index.html"> <img src="logo6.png" width="225px"> </a>
+					</div>
+					<nav>
+						<ul id="MenuItems">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="products.html">Products</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="account.html">Account</a></li>
+						</ul>
+					</nav>
+					<a href="shopping cart.html"> <img src="images\cart.png" width="30px" height="30px"> </a>
+					<img src="images\menu.png" class="menu-icon" onclick="menutoggle()">
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<h1>Put A New Style <br> In Your Work!</h1>
+						<p>
+							Greatness isn't a prerequisite for success always. It has to do <br>with consistency.
+							Success is attained by persistent hard work.<br> Greatness will eventually appear.
+						</p>
+						<a href="products.html" class="btn">Explore Now &#8594</a>  <!--this code will give the color to the explore now tab-->
+					</div>
+					<div class="col-2">
+						<img src="cat9.1.gif">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+<!----------------------------------------------featured categories---------------------------------------------------------------------------------->
+		<div class="categories">
+			<div class="small-container">
+				<!--we have add a small container in order to align the three categories.-->
+				<div class="row">
+					<div class="col-3">
+						<img src="latest products\cat12.jpeg"> <!--this will display category one image of our website-->
+					</div>
+					<div class="col-3">
+						<img src="latest products\cat13.jpeg">  <!---this will display category two image of our website-->
+					</div>
+					<div class="col-3">
+						<img src="latest products\watch.jpeg">  <!---this will display category three image of our websit-->
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!---------------------------------------------------------featured products------------------------------------------------------------------------->
+		<div class="small-container">
+			<h2 class="title">Featured Products</h2>  <!------this will add a new heading in the website of featured products in the center----->
+			<div class="row">
+				<div class="col-4">
+					<!----there are 4 columns----->
+					<a href=""> <img src="featured products\cat10.jpeg"> </a>
+					<a href=""> <h4>AirPods Pro Max</h4> </a>
+					<div class="rating">
+						<!----this will add the ratings of products---->
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+				<div class="col-4">
+					<a href=""> <img src="latest products\cat14.1.jpeg"> </a>
+					<a href=""> <h4>Strom II Power Bank</h4> </a>
+					<div class="rating">
+						<!----this will add the ratings of products---->
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$25.00</p>
+				</div>
+				<div class="col-4">
+					<a href=""> <img src="featured products\download.jpeg"> </a>
+					<a href=""> <h4>Mibro Watch 11</h4> </a>
+					<div class="rating">
+						<!----this will add the ratings of products---->
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$40.00</p>
+				</div>
+				<div class="col-4">
+					<a href=""> <img src="featured products\cat3.png"> </a>
+					<a href=""> <h4>IMO Air Glasses</h4> </a>
+					<div class="rating">
+						<!----this will add the ratings of products---->
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$15.00</p>
+				</div>
+			</div>
+			<h2 class="title">Latest Products</h2>  <!------this will add a new heading in the website of latest products after the featured products section----->
+			<div class="row">
+				<div class="col-4">  <!----there are 4 columns----->
+					<a href=""> <img src="latest products\cat2.3.png"> </a>
+					<a href=""> <h4>Biolite Solar panel</h4> </a>
+					<div class="rating">  <!----this will add the ratings of products---->
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$45.00</p>
+				</div>
+				<div class="col-4">
+					<a href=""> <img src="latest products\cat8.3.png"> </a>
+					<a href=""> <h4>Levitating Moon Light</h4> </a>
+					<div class="rating">
+						<!----this will add the ratings of products---->
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$20.00</p>
+				</div>
+				<div class="col-4">
+					<a href=""> <img src="latest products\cat12.jpeg"> </a>
+					<a href=""> <h4>Samsung GALAXY ZEN Fold 2</h4> </a>
+					<div class="rating">  <!----this will add the ratings of products---->
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+					</div>
+					<p>$250.00</p>
+				</div>
+				<div class="col-4">
+					<a href=""> <img src="latest products\cat13.jpeg"> </a>
+					<a href=""> <h4>UFO II WIRELESS Headphones</h4> </a>
+					<div class="rating">   <!----this will add the ratings of products---->
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-4">  <!----there are 4 columns----->
+					<a href=""> <img src="latest products\cat14.1.jpeg"> </a>
+					<a href=""> <h4>Strom II Power Bank</h4> </a>
+					<div class="rating">   <!----this will add the ratings of products---->
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$25.00</p>
+				</div>
+				<div class="col-4">
+					<a href=""> <img src="latest products\zenbook.jpeg"> </a>
+					<a href=""> <h4>ASUS Zenbook IV</h4> </a>
+					<div class="rating">	<!----this will add the ratings of products---->
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$400.00</p>
+				</div>
+				<div class="col-4">
+					<a href=""> <img src="featured products\download.jpeg"> </a>
+					<a href=""> <h4>Mibro Watch 11</h4> </a>
+					<div class="rating">	<!----this will add the ratings of products---->
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$40.00</p>
+				</div>
+				<div class="col-4">
+					<a href=""> <img src="featured products\cat3.png"> </a>
+					<a href=""> <h4>IMO Air Glasses</h4> </a>
+					<div class="rating">	<!----this will add the ratings of products---->
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$15.00</p>
+				</div>
+			</div>
+		</div>
+<!---------------------------------------------Offer Of Our Website--------------------------------------------------------------------------------->
+		<div class="offer">  <!-----this class is for offer of the webiste--->
+			<div class="small-container">
+				<div class="row">
+					<div class="col-2">
+						<img src="images\exclusive.png" class="offer-img">
+					</div>
+					<div class="col-2">
+						<h2>Exclusively Available on TECH INSIGHT</h2>
+						<h1>Smart Band IV</h1>
+						<h3>If you order is worth $1000.00, get this band for FREE!</h3>
+						<small>
+							The Mi Smart Band IV features a 39.9% larger (than Mi Band III) AMOLED color
+							full torch displayadjustable brightness, so everything is clear as can be.
+						</small>
+						<a href="products.html" class="btn">Buy Now &#8594;</a>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-----------------------------------------------Testimonial Section---------------------------------------------------------------------------------->
+		<div class="testimonial">
+			<div class="small-container">
+				<div class="row">
+					<div class="col-3">  <!-----there are 3 coloumns--->
+						<p>
+							<i class="fa fa-quote-left"></i>   <!----user1 review---->
+							One of the top technology review websites is TECH INSIGHT,
+							which compiles all relevant information about technological products in one convenient location.
+							<i class="fa fa-quote-right"></i>
+						</p>
+						<div class="rating">	<!----this will add the ratings of products---->
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<img src="images\user-1.png">
+						<h3>Sean Parker</h3>
+					</div>
+					<div class="col-3">
+						<p>
+							<i class="fa fa-quote-left"></i>   <!------user2 review----->
+							One of the best websites ever is this one. The newest technological innovations, including laptops,
+							smartphones, processors, and other tech peripherals, are reviewed alongside software goods.
+							<i class="fa fa-quote-right"></i>
+						</p>
+						<div class="rating">	<!----this will add the ratings of products---->
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<img src="images\user-2.png">
+						<h3>Mike Perry</h3>
+					</div>
+					<div class="col-3">
+						<p>
+							<i class="fa fa-quote-left"></i>   <!-------user3 review---->
+							One of the best websites ever is TECH INSIGHT. Its digital trends section offers editorial content and product reviews
+							in addition to news about technology. Trends and editor's picks
+							are also included in reviews. 
+							<i class="fa fa-quote-right"></i>
+						</p>
+						<div class="rating">
+							<!----this will add the ratings of products---->
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<img src="images\user-3.png">
+						<h3>Laura David</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--------------------------------------------Brands--------------------------------------------------------------------------------------------->
+		<div class="brands">
+			<div class="small-container">
+				<div class="row">
+					<div class="col-5">
+						<a href="https://www.oppo.com/pk/"> <img src="images\logo-oppo.png"> </a>
+					</div>
+					<div class="col-5">
+						<a href="https://www.paypal.com/pk/home"> <img src="images\logo-paypal.png"> </a>
+					</div>
+					<div class="col-5">
+						<a href="https://philipsappliances.pk/"> <img src="images\logo-philips.png"> </a>
+					</div>
+					<div class="col-5">
+						<a href="https://www.coca-colacompany.com/"> <img src="images\logo-coca-cola.png"> </a>
+</div>
+				</div>
+			</div>
+		</div>
+<!------------------------------------------footer------------------------------------------------------------------------------------------------->
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col-1">
+						<h3>Download Our App</h3>
+						<p>Download App for Android and ios mobile phone.</p>
+						<div class="app-logo">
+							<a href="https://play.google.com/store/games?hl=en&gl=US"> <img src="images\play-store.png"> </a>
+							<a href="https://www.apple.com/app-store/"> <img src="images\app-store.png"> </a>
+						</div>
+					</div>
+					<div class="footer-col-2">
+						<img src="logo8.png" width="250px" height="180px">
+						<p>
+							Our goal is to not only supply us with the most recent information about technology, but also with in-depth analyses of the goods
+							that are now available on the market. As a result, we improve as consumers because we make better decisions. We learn a lot about
+							a product from product reviews.
+						</p>
+					</div>
+					<div class="footer-col-3">
+						<h3>Useful Links</h3>
+						<ul>
+							<li><a href="https://www.groupon.com/coupons"> Coupons </a></li>
+							<li><a href="https://www.bluehost.com/resources/how-to-write-and-publish-your-first-blog-post/?irpid=101&clickid=P61C101S570N0B5578A2D4499E0000V135&gclid=EAIaIQobChMIyfGR74b3-wIVlLLVCh052w6qEAAYASAAEgLsfvD_BwE&gclsrc=aw.ds">Blog Post </a> </li>
+							<li><a href="https://www.shopify.com/blog/return-policy">Return Policy </a> </li>
+							<li><a href="https://app.indoleads.com/register/publisher?utm_source=GoogleAds&utm_medium=ppc&utm_campaign=PK_May22&utm_term=affiliate%20programs&utm_content=c&gclid=EAIaIQobChMI2d2gpIf3-wIVmeFRCh3PSg_XEAAYASAAEgJ4_fD_BwE">Join Affiliate </a> </li>
+						</ul>
+					</div>
+					<div class="footer-col-4">
+						<h3>Follow Us</h3>
+						<ul>
+							<li><a href="https://www.facebook.com/">Facebook </a> </li>
+							<li><a href="https://twitter.com/i/flow/login">Twitter </a> </li>
+							<li><a href="https://www.instagram.com/accounts/login/">Instagram </a> </li>
+							<li><a href="https://www.youtube.com/@TechInsightLtd/featured">Youtube </a> </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div>
+				<hr>
+				<p class="copyright">Copyright 2022 - TECH INSIGHT</p>
+			</div>
+		</div>
+<!-------------------------------------------------------js for toggle menu-------------------------------------------------------------------->
+		<script>
+			var MenuItems = document.getElementById("MenuItems");
+
+			MenuItems.style.maxHeight = "0px";
+
+			function menutoggle() {
+				if (MenuItems.style.maxHeight == "0px") {
+					MenuItems.style.maxHeight == "200px";
+				}  
+				else {
+					MenuItems.style.maxHeight == "0px";
+				}
+			}
+		</script>
+	</body> 
+
+
+</html>
